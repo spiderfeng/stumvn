@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvnstu2:war exploded">
+    <output-path>$PROJECT_DIR$/lesson2/mvnstu2/target/mvnstu2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvnstu2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/lesson2/mvnstu2/target/mvnstu2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mvnstu2/web/Web" />
+    </root>
+  </artifact>
+</component>
